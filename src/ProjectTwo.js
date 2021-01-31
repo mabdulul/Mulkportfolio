@@ -45,7 +45,7 @@ const ProjectTwo = () => {
 											</a>
 										</td>
 										<td>
-											<a class='aLink' href='/'>
+											<a class='aLink' href='https://mulk-github.netlify.app/'>
 												View Site
 											</a>
 										</td>
