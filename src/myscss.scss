@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+$main-font: "Poppins", sans-serif;
+$primary-font-color: black;
+$secondary-color: gray;
+$highlight-font-color: #d797ff;
+$p_margin: 1.8rem 0px;
+
+body {
+	font-family: $main-font;
+	color: $primary-font-color;
+	font-size: 16px;
+}
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+.aLink {
+	color: $highlight-font-color;
+	text-decoration: none;
+}
+
+.aLink:hover {
+	color: #b8dee9;
+}
+.btnA {
+	color: black;
+
+	.btnA-V {
+		color: $primary-font-color;
+		text-transform: uppercase;
+		font-weight: 500;
+	}
+}
+.btnA:hover {
+	color: black;
+	text-decoration: none;
+}
+.btnA img:hover {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.411);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.btnA-V:hover {
+	text-decoration: underline;
+}
+.section {
+	margin-top: 5rem;
+}
+.para {
+	color: $secondary-color;
+	font-weight: 300;
+	letter-spacing: 0.03em;
+}
+.header {
+	margin: 30px auto;
+	padding: 20px;
+	margin: 0 auto;
+
+	.header__content {
+		margin: 100px auto;
+	}
+	.header__text {
+		margin: 5% auto;
+
+		h1 {
+			font-weight: 600;
+			font-size: 7vw;
+			letter-spacing: 0.03em;
+		}
+	}
+}
+.header__line {
+	width: 200px;
+	border-bottom: 118px;
+	height: 2px;
+	display: inline-block;
+	background-color: $secondary-color;
+	margin-right: 1rem;
+}
+.mylogo {
+	width: 34px;
+	height: 32px;
+}
+.icons {
+	width: 24px;
+	margin: auto 1rem;
+}
+ul li {
+	list-style-type: none;
+}
+
+.MySkills_Section {
+	.MySkills_p {
+		max-width: 700px;
+		margin: $p_margin;
+	}
+	.MySkills_List {
+		display: grid;
+		font-size: 4vw;
+		grid-template-columns: 1fr 1fr;
+		.MySkills_Group li {
+			margin-bottom: 1rem;
+		}
+
+		ul li:before {
+			content: "O";
+			color: $highlight-font-color;
+			margin-right: 4%;
+			font-weight: 900;
+		}
+	}
+}
+.MyProjects_Section {
+	.MyProjects_p {
+		margin: $p_margin;
+		max-width: 500px;
+	}
+}
+.MyActualProjects_Section {
+	margin-top: 1.5rem;
+	h1 {
+		margin-top: 1.5rem;
+	}
+	.MyActualProjects_p {
+		margin: 1rem auto;
+	}
+}
+
+.section_footer {
+	margin-bottom: 2rem;
+}
+
+.Contact_Section {
+	.Contact_Frame {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+		.Contact_group {
+			margin-top: 2rem;
+			a {
+				font-weight: 600;
+			}
+			span {
+				margin-left: 1rem;
+			}
+		}
+	}
+}
+
+.ContactPic {
+	width: 24px;
+}
+
+.section-pj {
+	margin-top: 1rem;
+}
+
+.slick-slider {
+	width: 100%;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.027);
+	height: auto;
+}
+.slick__container {
+	max-width: 800px;
+
+	width: 100%;
+
+	.project_table {
+		text-align: left;
+		margin: 3rem 0px;
+		table {
+			max-width: 800px;
+			min-width: 500px;
+		}
+		.pj_group {
+			margin: 0 1rem;
+
+			a {
+				font-weight: 700;
+				text-transform: uppercase;
+			}
+		}
+		.pj_title {
+			text-transform: uppercase;
+			font-weight: 700;
+		}
+	}
+	tbody tr {
+		margin: 50px 50px;
+	}
+
+	h1 {
+		font-weight: 500;
+		font-size: 4rem;
+		margin: 3.5rem auto;
+		letter-spacing: 0.03em;
+	}
+}
+@media (max-width: 767.98px) {
+	.Contact_Section {
+		.Contact_Frame {
+			display: grid;
+			grid-template-columns: 1fr;
+		}
+	}
+}
+
+@media (min-width: 959px) {
+	.header {
+		.header__content {
+		}
+		.header__text {
+			h1 {
+				font-weight: 600;
+				font-size: 2.3rem;
+				letter-spacing: 0.02em;
+			}
+		}
+	}
+	.MySkills_Section {
+		.MySkills_List {
+			font-size: 1.2rem;
+			grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+			grid-column-gap: 35px;
+		}
+	}
+}
