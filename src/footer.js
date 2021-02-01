@@ -16,12 +16,13 @@ const Footer = () => {
 							<span>678-927-4983</span>
 						</div>
 						<div class='Contact_group'>
-							<img
+							<a
 								class='ContactPic'
-								src={resume}
-								alt='https://drive.google.com/file/d/1BfylRWjLafIfSO2qqtU-rtXIdTlNliki/view?usp=sharing'
-							/>
-							<span>See my resume</span>
+								href='https://drive.google.com/file/d/1BfylRWjLafIfSO2qqtU-rtXIdTlNliki/view?usp=sharing'
+							>
+								<img class='ContactPic' src={resume} alt='' />
+								<span>See my resume</span>
+							</a>
 						</div>
 						<div class='Contact_group'>
 							<img class='ContactPic' src={email} alt='' />
