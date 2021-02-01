@@ -42,13 +42,20 @@ const ProjectTwo = () => {
 											<a
 												class='aLink'
 												href='https://github.com/mabdulul/JobGit'
+												target='_blank'
+												rel='noopener noreferrer'
 											>
 												{" "}
 												Repository
 											</a>
 										</td>
 										<td>
-											<a class='aLink' href='https://mulk-github.netlify.app/'>
+											<a
+												class='aLink'
+												target='_blank'
+												rel='noopener noreferrer'
+												href='https://mulk-github.netlify.app/'
+											>
 												View Site
 											</a>
 										</td>

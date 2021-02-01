@@ -39,6 +39,8 @@ const ProjectThree = () => {
 											<a
 												class='aLink'
 												href='https://github.com/mabdulul/Pokedex'
+												target='_blank'
+												rel='noopener noreferrer'
 											>
 												{" "}
 												Repository
@@ -48,6 +50,8 @@ const ProjectThree = () => {
 											<a
 												class='aLink'
 												href='https://pokemon-search-database.netlify.app/'
+												target='_blank'
+												rel='noopener noreferrer'
 											>
 												View Site
 											</a>

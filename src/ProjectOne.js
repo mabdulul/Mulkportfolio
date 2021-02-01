@@ -42,6 +42,8 @@ const ProjectOne = () => {
 											<a
 												class='aLink'
 												href='https://github.com/mabdulul/DreamyCreamShopify'
+												target='_blank'
+												rel='noopener noreferrer'
 											>
 												{" "}
 												Repository
@@ -51,6 +53,8 @@ const ProjectOne = () => {
 											<a
 												class='aLink'
 												href='https://dreamycream-store.myshopify.com/'
+												target='_blank'
+												rel='noopener noreferrer'
 											>
 												View Site
 											</a>
