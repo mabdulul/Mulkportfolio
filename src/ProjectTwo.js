@@ -25,8 +25,9 @@ const ProjectTwo = () => {
 						<h1>GitHub Jobs API</h1>
 						<p class='para'>
 							This is frontendmentor project. This is fully-functional jobs
-							board using the GitHub Jobs API and is it is full responsive. This
-							application allows users to search for tech jobs.
+							board using the GitHub Jobs API and is it is full responsive. I
+							also used React hooks. This application allows users to search for
+							tech jobs.
 						</p>
 						<div class='project_table'>
 							<table>
@@ -37,7 +38,7 @@ const ProjectTwo = () => {
 										<td class='pj_title'>Live</td>
 									</tr>
 									<tr class='pj_group'>
-										<td>JavaScript</td>
+										<td>React</td>
 										<td>
 											<a
 												class='aLink'
@@ -61,12 +62,12 @@ const ProjectTwo = () => {
 										</td>
 									</tr>
 									<tr class='pj_group'>
-										<td>Shopify</td>
+										<td>HTML/CSS</td>
 										<td>&nbsp;</td>
 										<td>&nbsp;</td>
 									</tr>
 									<tr class='pj_group'>
-										<td>Liquid </td>
+										<td>Bootstrap</td>
 										<td>&nbsp;</td>
 										<td>&nbsp;</td>
 									</tr>
