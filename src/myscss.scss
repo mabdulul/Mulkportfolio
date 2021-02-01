@@ -19,6 +19,12 @@ ul {
 	color: $highlight-font-color;
 	text-decoration: none;
 }
+.h1-default {
+	font-weight: 500;
+	font-size: 4rem;
+	margin: 2rem auto;
+	letter-spacing: 0.03em;
+}
 
 .aLink:hover {
 	color: #b8dee9;
@@ -195,6 +201,10 @@ ul li {
 		margin: 3.5rem auto;
 		letter-spacing: 0.03em;
 	}
+}
+
+.para--about {
+	max-width: 700px;
 }
 @media (max-width: 767.98px) {
 	.Contact_Section {

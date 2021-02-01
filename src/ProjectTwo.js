@@ -39,7 +39,10 @@ const ProjectTwo = () => {
 									<tr class='pj_group'>
 										<td>JavaScript</td>
 										<td>
-											<a class='aLink' href='/'>
+											<a
+												class='aLink'
+												href='https://github.com/mabdulul/JobGit'
+											>
 												{" "}
 												Repository
 											</a>

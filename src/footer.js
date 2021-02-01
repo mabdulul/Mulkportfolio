@@ -6,7 +6,7 @@ import githublogo from "./images/github.svg";
 
 const Footer = () => {
 	return (
-		<div class='row section section_footer'>
+		<div class='row section section_footer' id='footer'>
 			<div class='col-sm-12 col-md-12 col-lg-12 Contact'>
 				<div class='Contact_Section'>
 					<h1>Let's Keep In Touch!</h1>

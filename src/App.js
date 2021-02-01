@@ -3,6 +3,7 @@ import githublogo from "./images/github.svg";
 
 import githubproject from "./images/gitjob.png";
 import DC from "./images/DCdesktop.png";
+import poke from "./images/pokefront.png";
 
 import "./myscss.scss";
 
@@ -28,11 +29,11 @@ function App() {
 								<span>
 									<h1>
 										Read more{" "}
-										<a class='aLink' href='/'>
+										<Link class='aLink' to='/about'>
 											about me
-										</a>{" "}
+										</Link>{" "}
 										or{" "}
-										<a class='aLink' href='/'>
+										<a class='aLink' href='#footer'>
 											contact me
 										</a>
 									</h1>
@@ -114,6 +115,25 @@ function App() {
 								<p class='MyActualProjects_p para'>
 									A e-commerce application that uses Shopify for a ice cream
 									company.
+								</p>
+								<p class='btnA-V'>View Project</p>
+							</Link>
+						</div>
+					</div>
+				</div>
+				<div class='row'>
+					<div class='col-sm-12 col-md-6 col-lg-6 MyActualProjects'>
+						<div class='MyActualProjects_Section'>
+							<Link class='btnA' to='/pokemon'>
+								<img
+									class='project img-fluid'
+									src={poke}
+									alt='pokemon project'
+								/>
+
+								<h1>Pokemon API</h1>
+								<p class='MyActualProjects_p para'>
+									This application uses the Pokemon API.
 								</p>
 								<p class='btnA-V'>View Project</p>
 							</Link>
