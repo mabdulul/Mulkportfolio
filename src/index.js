@@ -7,17 +7,20 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ProjectOne from "./ProjectOne";
 import ProjectTwo from "./ProjectTwo";
 import ProjectThree from "./ProjectThree";
+import ScrollToTop from "./ScrollToTop";
 import About from "./About";
 
 ReactDOM.render(
 	<React.StrictMode>
 		<Router>
 			<Route>
+				<ScrollToTop />
 				<Switch>
+					<Route path='/about' component={About} />
+
 					<Route path='/dreamyCream' component={ProjectOne} />
 					<Route path='/github' component={ProjectTwo} />
 					<Route path='/pokemon' component={ProjectThree} />
-					<Route path='/about' component={About} />
 					<Route path='/' component={App} />
 				</Switch>
 			</Route>

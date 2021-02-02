@@ -8,6 +8,16 @@ import image5 from "./images/CreamFAQ.png";
 import Footer from "./footer.js";
 import Logo from "./logo";
 
+import { useEffect } from "react";
+
+function ScrollToTopOnMount() {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
+	return null;
+}
+
 const ProjectOne = () => {
 	var settings = {
 		dots: true,
@@ -18,6 +28,7 @@ const ProjectOne = () => {
 	};
 	return (
 		<div class='container '>
+			<ScrollToTopOnMount />
 			<div class='row section '>
 				<div class='col-sm-12 col-md-12 col-lg-12 header '>
 					<div class='slick__container'>
