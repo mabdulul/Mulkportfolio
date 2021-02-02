@@ -17,15 +17,15 @@ const Footer = () => {
 						</div>
 						<div class='Contact_group'>
 							<a
-								class='ContactPic'
+								class='aLink'
 								href='https://drive.google.com/file/d/1BfylRWjLafIfSO2qqtU-rtXIdTlNliki/view?usp=sharing'
 							>
-								<img class='ContactPic' src={resume} alt='' />
+								<img class='ContactPic' src={resume} alt='Resume' />
 								<span>See my resume</span>
 							</a>
 						</div>
 						<div class='Contact_group'>
-							<img class='ContactPic' src={email} alt='' />
+							<img class='ContactPic' src={email} alt='Mail' />
 							<span>mabdulul@gmail.com</span>
 						</div>
 						<div class='Contact_group'>
