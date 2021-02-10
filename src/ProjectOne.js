@@ -48,11 +48,11 @@ const ProjectOne = () => {
 										<td class='pj_title'>Live</td>
 									</tr>
 									<tr class='pj_group'>
-										<td>HTML/CSS</td>
+										<td>Shopify</td>
 										<td>
 											<a
 												class='aLink'
-												href='https://github.com/mabdulul/DreamyCreamShopify'
+												href='https://github.com/mabdulul/Pokedex'
 												target='_blank'
 												rel='noopener noreferrer'
 											>
@@ -63,7 +63,7 @@ const ProjectOne = () => {
 										<td>
 											<a
 												class='aLink'
-												href='https://dreamycream-store.myshopify.com/'
+												href='https://pokemon-search-database.netlify.app/'
 												target='_blank'
 												rel='noopener noreferrer'
 											>
@@ -72,13 +72,13 @@ const ProjectOne = () => {
 										</td>
 									</tr>
 									<tr class='pj_group'>
-										<td>Shopify</td>
+										<td>HTML/CSS</td>
 										<td>&nbsp;</td>
-										<td>Password: test2</td>
+										<td>&nbsp;</td>
 									</tr>
 									<tr class='pj_group'>
-										<td>Liquid </td>
-										<td>&nbsp;</td>
+										<td>JavaScript</td>
+										<td></td>
 										<td>&nbsp;</td>
 									</tr>
 								</tbody>
