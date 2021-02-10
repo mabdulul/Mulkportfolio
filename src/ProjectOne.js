@@ -73,12 +73,12 @@ const ProjectOne = () => {
 									</tr>
 									<tr class='pj_group'>
 										<td>Shopify</td>
-										<td></td>
+										<td>&nbsp;</td>
 										<td>Password: test2</td>
 									</tr>
 									<tr class='pj_group'>
 										<td>Liquid </td>
-										<td></td>
+										<td>&nbsp;</td>
 										<td>&nbsp;</td>
 									</tr>
 								</tbody>

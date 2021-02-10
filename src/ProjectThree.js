@@ -59,8 +59,8 @@ const ProjectThree = () => {
 									</tr>
 									<tr class='pj_group'>
 										<td>HTML/CSS</td>
-										<td></td>
-										<td></td>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
 									</tr>
 									<tr class='pj_group'>
 										<td></td>
