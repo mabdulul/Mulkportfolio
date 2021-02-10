@@ -48,7 +48,7 @@ const ProjectOne = () => {
 										<td class='pj_title'>Live</td>
 									</tr>
 									<tr class='pj_group'>
-										<td>JavaScript</td>
+										<td>HTML/CSS</td>
 										<td>
 											<a
 												class='aLink'
