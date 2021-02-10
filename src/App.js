@@ -14,6 +14,7 @@ import Logo from "./logo";
 function App() {
 	return (
 		<div className='App'>
+			<div></div>
 			<div class='container'>
 				<div class='row section'>
 					<div class='col-sm-12 col-md-12 col-lg-12 header '>
@@ -71,10 +72,6 @@ function App() {
 					<div class='col-sm-12 col-md-12 col-lg-12 MyProjects'>
 						<div class='MyProjects_Section'>
 							<h1>Projects</h1>
-							<p class='MyProjects_p para'>
-								I always enjoying learning new things and technologies. Here are
-								some of the projects that I have worked on
-							</p>
 						</div>
 					</div>
 				</div>
@@ -88,12 +85,14 @@ function App() {
 									alt='github project'
 								/>
 
-								<h1>GitHub Jobs API</h1>
-								<p class='MyActualProjects_p para'>
-									This is fully-functional jobs board using the GitHub Jobs API.
-									I built this application using React.
-								</p>
-								<p class='btnA-V'>View Project</p>
+								<div class='MyActualProjects_desofproject'>
+									<h1>GitHub Jobs API</h1>
+									<p class='MyActualProjects_p para'>
+										This is fully-functional jobs board using the GitHub Jobs
+										API. I built this application using React.
+									</p>
+									{/* <p class='btnA-V'>View Project</p> */}
+								</div>
 							</Link>
 						</div>
 					</div>
@@ -110,7 +109,6 @@ function App() {
 									A e-commerce application that uses Shopify for a ice cream
 									company.
 								</p>
-								<p class='btnA-V'>View Project</p>
 							</Link>
 						</div>
 					</div>
@@ -129,7 +127,6 @@ function App() {
 								<p class='MyActualProjects_p para'>
 									This application uses the Pokemon API.
 								</p>
-								<p class='btnA-V'>View Project</p>
 							</Link>
 						</div>
 					</div>
