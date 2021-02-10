@@ -43,6 +43,9 @@ function App() {
 					<div class='col-sm-12 col-md-12 col-lg-12 MySkills'>
 						<div class='MySkills_Section'>
 							<h1>My Skills</h1>
+							<p class='MySkills_p  para'>
+								These are skills I have learned on my own and in my BootCamp.
+							</p>
 
 							<div class='MySkills_List'>
 								<ul class='MySkills_Group'>
@@ -69,6 +72,10 @@ function App() {
 					<div class='col-sm-12 col-md-12 col-lg-12 MyProjects'>
 						<div class='MyProjects_Section'>
 							<h1>Projects</h1>
+							<p class='MyProjects_p  para'>
+								I always enjoying learning new things and technologies. Here are
+								some of the projects that I have worked on.
+							</p>
 						</div>
 					</div>
 				</div>
