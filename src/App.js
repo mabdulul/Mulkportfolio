@@ -1,6 +1,5 @@
 import githubproject from "./images/gitjob.png";
 import DC from "./images/DCdesktop.png";
-import poke from "./images/pokefront.png";
 
 import "./myscss.scss";
 
@@ -107,31 +106,14 @@ function App() {
 								/>
 								<h1>Dreamy Cream</h1>
 								<p class='MyActualProjects_p para'>
-									A e-commerce application that uses Shopify for a ice cream
-									company.
+									A e-commerce application that is built with Shopify. Dreamy
+									Cream is store that sells ice cream.
 								</p>
 							</Link>
 						</div>
 					</div>
 				</div>
-				<div class='row'>
-					<div class='col-sm-12 col-md-6 col-lg-6 MyActualProjects'>
-						<div class='MyActualProjects_Section'>
-							<Link class='btnA' to='/pokemon'>
-								<img
-									class='project img-fluid'
-									src={poke}
-									alt='pokemon project'
-								/>
 
-								<h1>Pokemon API</h1>
-								<p class='MyActualProjects_p para'>
-									This application uses the Pokemon API.
-								</p>
-							</Link>
-						</div>
-					</div>
-				</div>
 				<Footer />
 			</div>
 		</div>
