@@ -85,14 +85,11 @@ function App() {
 									alt='github project'
 								/>
 
-								<div class='MyActualProjects_desofproject'>
-									<h1>GitHub Jobs API</h1>
-									<p class='MyActualProjects_p para'>
-										This is fully-functional jobs board using the GitHub Jobs
-										API. I built this application using React.
-									</p>
-									{/* <p class='btnA-V'>View Project</p> */}
-								</div>
+								<h1>GitHub Jobs API</h1>
+								<p class='MyActualProjects_p para'>
+									This is fully-functional jobs board using the GitHub Jobs API.
+									I built this application using React.
+								</p>
 							</Link>
 						</div>
 					</div>
