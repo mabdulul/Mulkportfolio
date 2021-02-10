@@ -52,7 +52,7 @@ const ProjectOne = () => {
 										<td>
 											<a
 												class='aLink'
-												href='https://github.com/mabdulul/Pokedex'
+												href='https://github.com/mabdulul/DreamyCream'
 												target='_blank'
 												rel='noopener noreferrer'
 											>
@@ -63,7 +63,7 @@ const ProjectOne = () => {
 										<td>
 											<a
 												class='aLink'
-												href='https://pokemon-search-database.netlify.app/'
+												href='https://6l50wp9z22ujhw25-52517863605.shopifypreview.com'
 												target='_blank'
 												rel='noopener noreferrer'
 											>
