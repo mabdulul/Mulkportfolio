@@ -19,13 +19,11 @@ function App() {
 					<div class='col-sm-12 col-md-12 col-lg-12 header '>
 						<Logo />
 						<div class='header__content'>
-							<div class='header__icons'>
-								<span class='header__line'></span>
-								<img class='icons' src={linkedinlogo} alt='linkedin logo' />
-								<img class='icons' src={githublogo} alt='github logo' />
-							</div>
 							<div class='header__text'>
-								<h1>Hi! I am Mulk and I'm Front End Developer. </h1>
+								<h1>Hi! I am Mulk 👋🏾</h1>
+								<span>
+									<h1>I'm Front End Developer.</h1>
+								</span>
 								<span>
 									<h1>
 										Read more{" "}
@@ -47,11 +45,7 @@ function App() {
 					<div class='col-sm-12 col-md-12 col-lg-12 MySkills'>
 						<div class='MySkills_Section'>
 							<h1>My Skills</h1>
-							<p class='MySkills_p para'>
-								Through my studies at, I've gained skills in web development
-								concepts, and have dedicated a lot of my free time to apply
-								these concepts to real-world scenarios and applications.
-							</p>
+
 							<div class='MySkills_List'>
 								<ul class='MySkills_Group'>
 									<li>Javascript ES6</li>

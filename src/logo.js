@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import mylogo from "./mylogo.svg";
+import mylogo from "./newlogo5.svg";
 
 const Logo = () => {
 	return (
