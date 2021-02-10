@@ -27,7 +27,7 @@ const ProjectOne = () => {
 		slidesToScroll: 1,
 	};
 	return (
-		<div class='container '>
+		<div class='container'>
 			<ScrollToTopOnMount />
 			<div class='row section '>
 				<div class='col-sm-12 col-md-12 col-lg-12 header '>
@@ -74,7 +74,7 @@ const ProjectOne = () => {
 									<tr class='pj_group'>
 										<td>HTML/CSS</td>
 										<td>&nbsp;</td>
-										<td>&nbsp;</td>
+										<td>Password: test2</td>
 									</tr>
 									<tr class='pj_group'>
 										<td>JavaScript</td>
