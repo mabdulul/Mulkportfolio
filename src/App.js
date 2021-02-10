@@ -1,6 +1,3 @@
-import linkedinlogo from "./images/linkedin.svg";
-import githublogo from "./images/github.svg";
-
 import githubproject from "./images/gitjob.png";
 import DC from "./images/DCdesktop.png";
 import poke from "./images/pokefront.png";
