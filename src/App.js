@@ -72,7 +72,7 @@ function App() {
 						<div class='MyProjects_Section'>
 							<h1>Projects</h1>
 							<p class='MyProjects_p  para'>
-								I always enjoying learning new things and technologies. Here are
+								I always enjoy learning new things and technologies. Here are
 								some of the projects that I have worked on.
 							</p>
 						</div>
@@ -90,8 +90,8 @@ function App() {
 
 								<h1>GitHub Jobs API</h1>
 								<p class='MyActualProjects_p para'>
-									This is fully-functional jobs board using the GitHub Jobs API.
-									I built this application using React.
+									This is a fully-functional jobs board using the GitHub Jobs
+									API. I built this application using React.
 								</p>
 							</Link>
 						</div>
@@ -106,7 +106,7 @@ function App() {
 								/>
 								<h1>Dreamy Cream</h1>
 								<p class='MyActualProjects_p para'>
-									A e-commerce application that is built with Shopify. Dreamy
+									A e-commerce application that is built with Shopify.. Dreamy
 									Cream is store that sells ice cream.
 								</p>
 							</Link>
