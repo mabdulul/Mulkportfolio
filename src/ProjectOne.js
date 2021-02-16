@@ -39,51 +39,50 @@ const ProjectOne = () => {
 							users. I built this application using vanilla javascript and
 							Shopify. I also design and coded the template.
 						</p>
-						<div class='project_table'>
-							<table>
-								<tbody>
-									<tr class='pj_group'>
-										<td class='pj_title'>Stack</td>
-										<td class='pj_title'>Code</td>
-										<td class='pj_title'>Live</td>
-									</tr>
-									<tr class='pj_group'>
-										<td>Shopify</td>
-										<td>
-											<a
-												class='aLink'
-												href='https://github.com/mabdulul/DreamyCream'
-												target='_blank'
-												rel='noopener noreferrer'
-											>
-												{" "}
-												Repository
-											</a>
-										</td>
-										<td>
-											<a
-												class='aLink'
-												href='https://6l50wp9z22ujhw25-52517863605.shopifypreview.com'
-												target='_blank'
-												rel='noopener noreferrer'
-											>
-												View Site
-											</a>
-										</td>
-									</tr>
-									<tr class='pj_group'>
-										<td>HTML/CSS</td>
-										<td>&nbsp;</td>
-										<td>Password: test2</td>
-									</tr>
-									<tr class='pj_group'>
-										<td>JavaScript</td>
-										<td></td>
-										<td>&nbsp;</td>
-									</tr>
-								</tbody>
-							</table>
+						<div class='ProjectList'>
+							<ul>
+								<li class='pj_title'>
+									<span>Stack</span>
+								</li>
+								<li>Shopify</li>
+								<li>React</li>
+								<li>HTML/CSS</li>
+							</ul>
+							<ul>
+								<li class='pj_title'>
+									<span>Code</span>
+								</li>
+								<li>
+									{" "}
+									<a
+										class='aLink'
+										href='https://github.com/mabdulul/DreamyCream'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
+										{" "}
+										Repository
+									</a>
+								</li>
+							</ul>
+							<ul>
+								<li class='pj_title'>
+									<span>Live</span>
+								</li>
+								<li>
+									{" "}
+									<a
+										class='aLink'
+										href='https://6l50wp9z22ujhw25-52517863605.shopifypreview.com'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
+										View Site
+									</a>
+								</li>
+							</ul>
 						</div>
+
 						<Slider {...settings}>
 							<div>
 								<img class='img-fluid' src={image1} alt='' />
@@ -101,9 +100,28 @@ const ProjectOne = () => {
 								<img class='img-fluid' src={image5} alt='' />
 							</div>
 						</Slider>
+						<div class='ProjectDescription'>
+							<h2>Project Purpose and Goal</h2>
+							<p class='para'>
+								Dreamy Cream is a freelance e-commencer site that I work for
+								Rayya Ulusoy. She needed a site that contained her color schema
+								and important shipping information and FAQ page. I created the
+								site with Shopify because it was easy to use, and I didn't need
+								any additional plugins. I also needed to ensure that the site
+								was customizable.
+							</p>
+
+							<h2>Problems/Solutions </h2>
+							<p class='para'>
+								The main problem I had was learning how to use the Shopify
+								interface and learning liquid. However, after watching
+								tutorials, and reading the documentation it was easy to pick-up.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
+
 			<Footer />
 		</div>
 	);

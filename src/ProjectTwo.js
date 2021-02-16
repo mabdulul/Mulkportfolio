@@ -29,51 +29,49 @@ const ProjectTwo = () => {
 							also used React hooks. This application allows users to search for
 							tech jobs.
 						</p>
-						<div class='project_table'>
-							<table>
-								<tbody>
-									<tr class='pj_group'>
-										<td class='pj_title'>Stack</td>
-										<td class='pj_title'>Code</td>
-										<td class='pj_title'>Live</td>
-									</tr>
-									<tr class='pj_group'>
-										<td>React</td>
-										<td>
-											<a
-												class='aLink'
-												href='https://github.com/mabdulul/JobGit'
-												target='_blank'
-												rel='noopener noreferrer'
-											>
-												{" "}
-												Repository
-											</a>
-										</td>
-										<td>
-											<a
-												class='aLink'
-												target='_blank'
-												rel='noopener noreferrer'
-												href='https://mulk-github.netlify.app/'
-											>
-												View Site
-											</a>
-										</td>
-									</tr>
-									<tr class='pj_group'>
-										<td>HTML/CSS</td>
-										<td>&nbsp;</td>
-										<td>&nbsp;</td>
-									</tr>
-									<tr class='pj_group'>
-										<td>Bootstrap</td>
-										<td>&nbsp;</td>
-										<td>&nbsp;</td>
-									</tr>
-								</tbody>
-							</table>
+
+						<div class='ProjectList'>
+							<ul>
+								<li class='pj_title'>
+									<span>Stack</span>
+								</li>
+
+								<li>React</li>
+								<li>HTML/CSS</li>
+							</ul>
+							<ul>
+								<li class='pj_title'>
+									<span>Code</span>
+								</li>
+								<li>
+									<a
+										class='aLink'
+										href='https://github.com/mabdulul/JobGit'
+										target='_blank'
+										rel='noopener noreferrer'
+									>
+										{" "}
+										Repository
+									</a>
+								</li>
+							</ul>
+							<ul>
+								<li class='pj_title'>
+									<span>Live</span>
+								</li>
+								<li>
+									<a
+										class='aLink'
+										target='_blank'
+										rel='noopener noreferrer'
+										href='https://mulk-github.netlify.app/'
+									>
+										View Site
+									</a>
+								</li>
+							</ul>
 						</div>
+
 						<Slider {...settings}>
 							<div>
 								<img class='img-fluid' src={gitnow1} alt='' />
@@ -88,6 +86,25 @@ const ProjectTwo = () => {
 								<img class='img-fluid' src={gitnow4} alt='' />
 							</div>
 						</Slider>
+						<div class='ProjectDescription'>
+							<h2>Purpose and Goal</h2>
+							<p class='para'>
+								I built this project to become familiar with the react hook
+								useReducer. I also wanted to get better at translating a Figma
+								design to code and get used to the thought process Furthermore,
+								this project introduced me to CSS Grid.
+							</p>
+
+							<h2>Problems/Solutions </h2>
+							<p class='para'>
+								The main problem I had with my code it was too repetitive. I had
+								too many functions calling the GitHub API. Decreasing my
+								repetition was one of my main goals for this project. I solved
+								this issue by using useReducer and creating my own react hook. I
+								also had a CORS issue. I resolve this by creating a proxy with
+								Netlify Functions.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
