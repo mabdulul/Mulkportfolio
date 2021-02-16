@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ProjectOne from "./ProjectOne";
 import ProjectTwo from "./ProjectTwo";
+import TestStyle from "./test";
 
 import ScrollToTop from "./ScrollToTop";
 import About from "./About";
@@ -19,6 +20,7 @@ ReactDOM.render(
 					<Route path='/about' component={About} />
 					<Route path='/dreamyCream' component={ProjectOne} />
 					<Route path='/github' component={ProjectTwo} />
+					<Route path='/test' component={TestStyle} />
 					<Route path='/' component={App} />
 				</Switch>
 			</Route>

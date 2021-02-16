@@ -4,13 +4,18 @@ $main-font: "Ubuntu", sans-serif;
 $primary-font-color: black;
 $secondary-color: gray;
 $highlight-font-color: #d797ff;
+$border-radius: 10px;
 $p_margin: 1.8rem 0px;
 
 body {
 	font-family: $main-font;
 	color: $primary-font-color;
 	font-size: 16px;
-	background-color: azure;
+	background-color: white;
+}
+
+.borderRadius {
+	border-radius: $border-radius;
 }
 
 ul {
@@ -174,32 +179,33 @@ ul li {
 	height: auto;
 }
 .slick__container {
-	max-width: 800px;
+	max-width: 900px;
 
 	width: 100%;
+	.ProjectList {
+		display: flex;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
 
-	.project_table {
-		text-align: left;
-		margin: 3rem 0px;
-		table {
-			max-width: 800px;
-			min-width: 282px;
-		}
-		.pj_group {
-			margin: 0 1rem;
-
-			a {
-				font-weight: 700;
+		ul {
+			margin-right: 4rem;
+			.pj_title {
+				font-weight: 600;
 				text-transform: uppercase;
+				font-size: 1.126rem;
+				margin-bottom: 1rem;
+			}
+			li {
+				margin: 0.5rem auto;
+			}
+
+			li a {
+				font-weight: 600;
 			}
 		}
-		.pj_title {
-			text-transform: uppercase;
-			font-weight: 700;
-		}
 	}
-	tbody tr {
-		margin: 50px 50px;
+	.ProjectDescription {
+		margin-top: 3rem;
 	}
 
 	h1 {
@@ -241,4 +247,8 @@ ul li {
 			grid-column-gap: 35px;
 		}
 	}
+}
+
+.p_projects {
+	max-width: 500px;
 }
