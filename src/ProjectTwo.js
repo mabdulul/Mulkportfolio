@@ -91,7 +91,7 @@ const ProjectTwo = () => {
 							<p class='para'>
 								I built this project to become familiar with the react hook
 								useReducer. I also wanted to get better at translating a Figma
-								design to code and get used to the thought process Furthermore,
+								design to code and get used to the thought process.Furthermore,
 								this project introduced me to CSS Grid.
 							</p>
 

@@ -19,7 +19,7 @@ function App() {
 							<div class='header__text'>
 								<h1>Hi! I am Mulk 👋🏾</h1>
 								<span>
-									<h1>I'm Front End Developer.</h1>
+									<h1>I'm a Front End Developer.</h1>
 								</span>
 								<span>
 									<h1>
