@@ -18,6 +18,41 @@ body {
 	border-radius: $border-radius;
 }
 
+.wave {
+	animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+	animation-duration: 2.5s; /* Change to speed up or slow down */
+	animation-iteration-count: 1; /* Never stop waving :) */
+	transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+	display: inline-block;
+}
+
+@keyframes wave-animation {
+	0% {
+		transform: rotate(0deg);
+	}
+	10% {
+		transform: rotate(14deg);
+	} /* The following five values can be played with to make the waving more or less extreme */
+	20% {
+		transform: rotate(-8deg);
+	}
+	30% {
+		transform: rotate(14deg);
+	}
+	40% {
+		transform: rotate(-4deg);
+	}
+	50% {
+		transform: rotate(10deg);
+	}
+	60% {
+		transform: rotate(0deg);
+	} /* Reset for the last half to pause */
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
 ul {
 	padding: 0px;
 	margin: 0px;
@@ -49,10 +84,7 @@ ul {
 	color: black;
 	text-decoration: none;
 }
-.btnA img:hover {
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.411);
-	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
+
 .btnA-V:hover {
 	text-decoration: underline;
 }
@@ -142,6 +174,29 @@ ul li {
 	.MyActualProjects_p {
 		margin: 1rem auto;
 	}
+}
+.flip_images {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.project--top {
+	width: 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	opacity: 0;
+}
+
+.flip_images:hover .project--top {
+	width: 100%;
+	display: block;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.411);
+	transition: opacity 0.3s ease-in-out;
+	border-radius: 10px;
+	opacity: 1;
 }
 
 .section_footer {

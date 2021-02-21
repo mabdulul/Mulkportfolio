@@ -4,7 +4,7 @@ import mylogo from "./newlogo5.svg";
 const Logo = () => {
 	return (
 		<Link to='/'>
-			<img class='mylogo' src={mylogo} alt='logo' />
+			<img className='mylogo' src={mylogo} alt='logo' />
 		</Link>
 	);
 };

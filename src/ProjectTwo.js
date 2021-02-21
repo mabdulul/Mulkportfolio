@@ -17,22 +17,22 @@ const ProjectTwo = () => {
 		slidesToScroll: 1,
 	};
 	return (
-		<div class='container '>
-			<div class='row section '>
-				<div class='col-sm-12 col-md-12 col-lg-12 header '>
-					<div class='slick__container'>
+		<div className='container '>
+			<div className='row section '>
+				<div className='col-sm-12 col-md-12 col-lg-12 header '>
+					<div className='slick__container'>
 						<Logo />
 						<h1>GitHub Jobs API</h1>
-						<p class='para'>
+						<p className='para'>
 							This is frontendmentor project. This is fully-functional jobs
 							board using the GitHub Jobs API and is it is full responsive. I
 							also used React hooks. This application allows users to search for
 							tech jobs.
 						</p>
 
-						<div class='ProjectList'>
+						<div className='ProjectList'>
 							<ul>
-								<li class='pj_title'>
+								<li className='pj_title'>
 									<span>Stack</span>
 								</li>
 
@@ -40,12 +40,12 @@ const ProjectTwo = () => {
 								<li>HTML/CSS</li>
 							</ul>
 							<ul>
-								<li class='pj_title'>
+								<li className='pj_title'>
 									<span>Code</span>
 								</li>
 								<li>
 									<a
-										class='aLink'
+										className='aLink'
 										href='https://github.com/mabdulul/JobGit'
 										target='_blank'
 										rel='noopener noreferrer'
@@ -56,12 +56,12 @@ const ProjectTwo = () => {
 								</li>
 							</ul>
 							<ul>
-								<li class='pj_title'>
+								<li className='pj_title'>
 									<span>Live</span>
 								</li>
 								<li>
 									<a
-										class='aLink'
+										className='aLink'
 										target='_blank'
 										rel='noopener noreferrer'
 										href='https://mulk-github.netlify.app/'
@@ -74,21 +74,21 @@ const ProjectTwo = () => {
 
 						<Slider {...settings}>
 							<div>
-								<img class='img-fluid' src={gitnow1} alt='' />
+								<img className='img-fluid' src={gitnow1} alt='' />
 							</div>
 							<div>
-								<img class='img-fluid' src={gitnow2} alt='' />
+								<img className='img-fluid' src={gitnow2} alt='' />
 							</div>
 							<div>
-								<img class='img-fluid' src={gitnow3} alt='' />
+								<img className='img-fluid' src={gitnow3} alt='' />
 							</div>
 							<div>
-								<img class='img-fluid' src={gitnow4} alt='' />
+								<img className='img-fluid' src={gitnow4} alt='' />
 							</div>
 						</Slider>
-						<div class='ProjectDescription'>
+						<div className='ProjectDescription'>
 							<h2>Purpose and Goal</h2>
-							<p class='para'>
+							<p className='para'>
 								I built this project to become familiar with the react hook
 								useReducer. I also wanted to get better at translating a Figma
 								design to code and get used to the thought process.Furthermore,
@@ -96,7 +96,7 @@ const ProjectTwo = () => {
 							</p>
 
 							<h2>Problems/Solutions </h2>
-							<p class='para'>
+							<p className='para'>
 								The main problem I had with my code it was too repetitive. I had
 								too many functions calling the GitHub API. Decreasing my
 								repetition was one of my main goals for this project. I solved

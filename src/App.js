@@ -1,5 +1,6 @@
 import githubproject from "./images/gitjob.png";
 import DC from "./images/DCdesktop.png";
+import hello from "./images/Hi.svg";
 
 import "./myscss.scss";
 
@@ -11,24 +12,26 @@ function App() {
 	return (
 		<div className='App'>
 			<div></div>
-			<div class='container'>
-				<div class='row section'>
-					<div class='col-sm-12 col-md-12 col-lg-12 header '>
+			<div className='container'>
+				<div className='row section'>
+					<div className='col-sm-12 col-md-12 col-lg-12 header '>
 						<Logo />
-						<div class='header__content'>
-							<div class='header__text'>
-								<h1>Hi! I am Mulk 👋🏾</h1>
+						<div className='header__content'>
+							<div className='header__text'>
+								<h1>
+									Hi! I am Mulk <span className='hand wave'>👋🏾</span>
+								</h1>
 								<span>
 									<h1>I'm a Front End Developer.</h1>
 								</span>
 								<span>
 									<h1>
 										Read more{" "}
-										<Link class='aLink' to='/about'>
+										<Link className='aLink' to='/about'>
 											about me
 										</Link>{" "}
 										or{" "}
-										<a class='aLink' href='#footer'>
+										<a className='aLink' href='#footer'>
 											contact me
 										</a>
 									</h1>
@@ -38,28 +41,28 @@ function App() {
 					</div>
 				</div>
 
-				<div class='row'>
-					<div class='col-sm-12 col-md-12 col-lg-12 MySkills'>
-						<div class='MySkills_Section'>
+				<div className='row'>
+					<div className='col-sm-12 col-md-12 col-lg-12 MySkills'>
+						<div className='MySkills_Section'>
 							<h1>My Skills</h1>
-							<p class='MySkills_p  para'>
+							<p className='MySkills_p  para'>
 								These are skills I have learned on my own and in my BootCamp.
 							</p>
 
-							<div class='MySkills_List'>
-								<ul class='MySkills_Group'>
+							<div className='MySkills_List'>
+								<ul className='MySkills_Group'>
 									<li>Javascript ES6</li>
 									<li>HTML & CSS</li>
 								</ul>
-								<ul class='MySkills_Group'>
+								<ul className='MySkills_Group'>
 									<li>React</li>
 									<li>SASS</li>
 								</ul>
-								<ul class='MySkills_Group'>
+								<ul className='MySkills_Group'>
 									<li>Git</li>
 									<li>Shopify</li>
 								</ul>
-								<ul class='MySkills_Group'>
+								<ul className='MySkills_Group'>
 									<li>SQL</li>
 									<li>NodeJS</li>
 								</ul>
@@ -67,45 +70,60 @@ function App() {
 						</div>
 					</div>
 				</div>
-				<div class='row section'>
-					<div class='col-sm-12 col-md-12 col-lg-12 MyProjects'>
-						<div class='MyProjects_Section'>
+				<div className='row section'>
+					<div className='col-sm-12 col-md-12 col-lg-12 MyProjects'>
+						<div className='MyProjects_Section'>
 							<h1>Projects</h1>
-							<p class='MyProjects_p  para'>
+							<p className='MyProjects_p  para'>
 								I always enjoy learning new things and technologies. Here are
 								some of the projects that I have worked on.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class='row '>
-					<div class='col-sm-12 col-md-6 col-lg-6 MyActualProjects'>
-						<div class='MyActualProjects_Section'>
-							<Link class='btnA' to='/github'>
-								<img
-									class='project img-fluid'
-									src={githubproject}
-									alt='github project'
-								/>
+				<div className='row '>
+					<div className='col-sm-12 col-md-6 col-lg-6 MyActualProjects'>
+						<div className='MyActualProjects_Section'>
+							<Link className='btnA' to='/github'>
+								<div className='flip_images'>
+									<img
+										className='project img-fluid'
+										src={githubproject}
+										alt='github project'
+									/>
+									<img
+										className='project--top img-fluid'
+										src={hello}
+										alt='hello'
+									/>
+								</div>
 
 								<h1>GitHub Jobs API</h1>
-								<p class='MyActualProjects_p para'>
+								<p className='MyActualProjects_p para'>
 									This is a fully-functional jobs board using the GitHub Jobs
 									API. I built this application using React.
 								</p>
 							</Link>
 						</div>
 					</div>
-					<div class='col-sm-12 col-md-6 col-lg-6 MyActualProjects'>
-						<div class='MyActualProjects_Section'>
-							<Link class='btnA' to='/dreamyCream'>
-								<img
-									class='project img-fluid'
-									src={DC}
-									alt='dreamy cream project'
-								/>
+					<div className='col-sm-12 col-md-6 col-lg-6 MyActualProjects'>
+						<div className='MyActualProjects_Section'>
+							<Link className='btnA' to='/dreamyCream'>
+								<div className='flip_images'>
+									<img
+										className='project img-fluid'
+										src={DC}
+										alt='dreamy cream project'
+									/>
+									<img
+										className='project--top img-fluid'
+										src={hello}
+										alt='hello'
+									/>
+								</div>
+
 								<h1>Dreamy Cream</h1>
-								<p class='MyActualProjects_p para'>
+								<p className='MyActualProjects_p para'>
 									A e-commerce application that is built with Shopify.. Dreamy
 									Cream is store that sells ice cream.
 								</p>
