@@ -69,17 +69,19 @@ const ProjectOne = () => {
 								<li className='pj_title'>
 									<span>Live</span>
 								</li>
+
 								<li>
 									{" "}
 									<a
 										className='aLink'
-										href='https://6l50wp9z22ujhw25-52517863605.shopifypreview.com'
+										href='https://h69sqhfovcwephwc-52517863605.shopifypreview.com'
 										target='_blank'
 										rel='noopener noreferrer'
 									>
 										View Site
 									</a>
 								</li>
+								<li>Password: test</li>
 							</ul>
 						</div>
 
