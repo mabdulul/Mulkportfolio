@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ProjectOne from "./ProjectOne";
 import ProjectTwo from "./ProjectTwo";
+import SalonProject from "./SalonProject";
 import TestStyle from "./test";
 
 import ScrollToTop from "./ScrollToTop";
@@ -20,6 +21,7 @@ ReactDOM.render(
 					<Route path='/about' component={About} />
 					<Route path='/dreamyCream' component={ProjectOne} />
 					<Route path='/github' component={ProjectTwo} />
+					<Route path='/Salon-Assist' component={SalonProject} />
 					<Route path='/test' component={TestStyle} />
 					<Route path='/' component={App} />
 				</Switch>

@@ -1,5 +1,6 @@
 import githubproject from "./images/gitjob.png";
 import DC from "./images/DCdesktop.png";
+import SalonCover from "./images/newSalonCover.png";
 import hello from "./images/Hi.svg";
 
 import "./myscss.scss";
@@ -124,8 +125,35 @@ function App() {
 
 								<h1>Dreamy Cream</h1>
 								<p className='MyActualProjects_p para'>
-									A e-commerce application that is built with Shopify.. Dreamy
+									A e-commerce application that is built with Shopify. Dreamy
 									Cream is store that sells ice cream.
+								</p>
+							</Link>
+						</div>
+					</div>
+				</div>
+				<div className='row'>
+					<div className='col-sm-12 col-md-6 col-lg-6 MyActualProjects'>
+						<div className='MyActualProjects_Section'>
+							<Link className='btnA' to='/Salon-Assist'>
+								<div className='flip_images'>
+									<img
+										className='project img-fluid'
+										src={SalonCover}
+										alt='Salon-Assist'
+									/>
+									<img
+										className='project--top img-fluid'
+										src={hello}
+										alt='hello'
+									/>
+								</div>
+
+								<h1>Salon-Assist</h1>
+								<p className='MyActualProjects_p para'>
+									Salon-Assist is an application that allows customers to
+									complete a quiz detailing information about their hair and
+									scheduling appointments.
 								</p>
 							</Link>
 						</div>
