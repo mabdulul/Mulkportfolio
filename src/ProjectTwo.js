@@ -25,7 +25,7 @@ const ProjectTwo = () => {
 						<h1>GitHub Jobs API</h1>
 						<p className='para'>
 							This is frontendmentor project. This is fully-functional jobs
-							board using the GitHub Jobs API and is it is full responsive. I
+							board using the GitHub Jobs API and it is a fully responsive. I
 							also used React hooks. This application allows users to search for
 							tech jobs.
 						</p>
