@@ -74,7 +74,7 @@ const ProjectOne = () => {
 									{" "}
 									<a
 										className='aLink'
-										href='https://ytnyxwkcufy7qisw-52517863605.shopifypreview.com'
+										href='https://rk40qwdvr5i9byi3-52517863605.shopifypreview.com
 										target='_blank'
 										rel='noopener noreferrer'
 									>
