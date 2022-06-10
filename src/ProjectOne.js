@@ -65,24 +65,7 @@ const ProjectOne = () => {
 									</a>
 								</li>
 							</ul>
-							<ul>
-								<li className='pj_title'>
-									<span>Live</span>
-								</li>
-
-								<li>
-									{" "}
-									<a
-										className='aLink'
-										href='https://rk40qwdvr5i9byi3-52517863605.shopifypreview.com'
-										target='_blank'
-										rel='noopener noreferrer'
-									>
-										View Site
-									</a>
-								</li>
-								<li>Password: test</li>
-							</ul>
+							
 						</div>
 
 						<Slider {...settings}>
