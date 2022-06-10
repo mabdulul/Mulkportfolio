@@ -55,21 +55,7 @@ const ProjectTwo = () => {
 									</a>
 								</li>
 							</ul>
-							<ul>
-								<li className='pj_title'>
-									<span>Live</span>
-								</li>
-								<li>
-									<a
-										className='aLink'
-										target='_blank'
-										rel='noopener noreferrer'
-										href='https://mulk-github.netlify.app/'
-									>
-										View Site
-									</a>
-								</li>
-							</ul>
+							
 						</div>
 
 						<Slider {...settings}>
