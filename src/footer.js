@@ -34,7 +34,7 @@ const Footer = () => {
 								<img className='ContactPic' src={linkedinlogo} alt='linkedin' />
 								<span>/mulk-abdulhadi-277476108</span>
 							</a>
-						</div>
+						  </div>
 					</div>
 				</div>
 			</div>
