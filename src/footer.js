@@ -15,15 +15,7 @@ const Footer = () => {
 							<img className='ContactPic' src={phone} alt='' />
 							<span>678-927-4983</span>
 						</div>
-						<div className='Contact_group'>
-							<a
-								className='aLink'
-								href='https://drive.google.com/file/d/1BfylRWjLafIfSO2qqtU-rtXIdTlNliki/view?usp=sharing'
-							>
-								<img className='ContactPic' src={resume} alt='Resume' />
-								<span>See my resume</span>
-							</a>
-						</div>
+				
 						<div className='Contact_group'>
 							<img className='ContactPic' src={email} alt='Mail' />
 							<span>mabdulul@gmail.com</span>
