@@ -1,4 +1,4 @@
-import resume from "./images/copy.svg";
+
 import phone from "./images/phone-call.svg";
 import email from "./images/email.svg";
 import linkedinlogo from "./images/linkedin.svg";
